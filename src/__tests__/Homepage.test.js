@@ -6,7 +6,7 @@ import { MemoryRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import { configureStore } from "@reduxjs/toolkit";
-import myCountries from "../components/Countries";
+import myCountries from "./CountriesTest";
 import Homepage from "../components/Homepage";
 
 const reducer = (
