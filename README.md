@@ -107,7 +107,7 @@ Live Demo [here](https://react-reduxcapstone.netlify.app/)
 
 # 🚀 [Live Presentation] <a name="presentation"></a>
 
-See Live Presentation [here](https://www.youtube.com/watch?v=mnsmMjfYyRk)
+See Live Presentation [here](https://youtu.be/BK9je5LvFTM)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
