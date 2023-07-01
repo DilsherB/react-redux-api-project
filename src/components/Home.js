@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import data from "./data";
 
@@ -8,7 +8,7 @@ const HomePage = () => {
 
   useEffect(() => {
     dispatch({ type: "fetchItems" });
-  }, [dispatch]);
+  }, []);
 
   return (
     <div>
@@ -18,7 +18,12 @@ const HomePage = () => {
           <h2>{item.name}</h2>
           <button
             type="button"
-            onClick={() => dispatch({ type: "showItem", payload: item.id })}
+            onClick={() => {
+              dispatch({ type: "showItem", payload: item.id });
+              // navigate to the ItemPage component with the item id as the
+              // route parameter
+              // window.location.href = `/item/${item.id}`;
+            }}
           >
             Show More
           </button>
