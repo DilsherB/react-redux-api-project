@@ -8,7 +8,7 @@ const HomePage = () => {
 
   useEffect(() => {
     dispatch({ type: "fetchItems" });
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
