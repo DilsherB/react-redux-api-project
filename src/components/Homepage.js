@@ -59,9 +59,7 @@ const Homepage = () => {
     navigate(`/countries/${value}`);
   };
 
-  const filteredRegions = regions.filter((region) =>
-    region.title.includes(selectedRegion)
-  );
+  const filteredRegions = regions.filter((region) => region.title.includes(selectedRegion));
 
   const PinkPaper = styled(Paper)(({ theme }) => ({
     backgroundColor: "rgb(236, 76, 138)",

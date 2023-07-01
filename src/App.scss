@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "lato", "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.App {
+  text-align: center;
+
+  .world-icon {
+    background-color: rgb(236, 76, 138);
+    opacity: 18%;
+  }
+
+  .map-icon {
+    background-color: rgb(236, 76, 138);
+    opacity: 18%;
+    border-radius: 3%;
+  }
+
+  .back-arrow {
+    text-decoration: none;
+  }
+
+  .heading {
+    text-decoration: none;
+  }
+}
