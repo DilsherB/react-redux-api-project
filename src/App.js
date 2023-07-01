@@ -6,7 +6,7 @@ import { Container } from "@mui/material";
 import Navigation from "./components/Navigation";
 import Homepage from "./components/Homepage";
 import { fetchCountries } from "./redux/countriesSlice";
-import Countries from "./components/Countries";
+import Countries from "./components/Countries.js";
 
 function App() {
   const dispatch = useDispatch();
