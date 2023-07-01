@@ -1,6 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import {
   Table,
   TableBody,
@@ -15,7 +14,6 @@ import {
   Typography,
   IconButton,
 } from "@mui/material";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import UnfoldMoreSharpIcon from "@mui/icons-material/UnfoldMoreSharp";
 import { fetchCountries } from "../redux/countriesSlice";
 
