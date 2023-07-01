@@ -126,7 +126,7 @@ In order to run this project you need:</br>
 ### Setup
 
 Clone this repository to your desired folder: </br>
-`git clone https://github.com/DilsherB/covid-data-capstone-project-with-react-redux.git`
+`git clone https://github.com/DilsherB/react-redux-api-project.git`
 then `cd "foldername"`</br>
 
 ### Install
@@ -181,7 +181,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DilsherB/covid-data-capstone-project-with-react-redux/issues).
+Feel free to check the [issues page](https://github.com/DilsherB/react-redux-api-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
