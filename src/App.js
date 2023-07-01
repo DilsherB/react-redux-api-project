@@ -8,7 +8,8 @@ import { Container } from "@mui/material";
 import Navigation from "./components/Navigation";
 import Homepage from "./components/Homepage";
 import { fetchCountries } from "./redux/countriesSlice";
-import Countries from "./components/Countries";
+// eslint-disable-next-line import/extensions
+import Countries from "./components/Countries.js";
 
 function App() {
   const dispatch = useDispatch();

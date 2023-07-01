@@ -6,8 +6,8 @@ import { MemoryRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import { configureStore } from "@reduxjs/toolkit";
-// import Homepage1 from '../components/Homepage1';
-import myCountries from "../components/Countries";
+// eslint-disable-next-line import/extensions
+import myCountries from "../components/Countries.js";
 import Homepage from "../components/Homepage";
 
 const reducer = (

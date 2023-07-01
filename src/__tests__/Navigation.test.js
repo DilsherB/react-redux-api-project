@@ -5,7 +5,8 @@ import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import myCountries from "../components/Countries";
+// eslint-disable-next-line import/extensions
+import myCountries from "../components/Countries.js";
 import Navigation from "../components/Navigation";
 
 const reducer = (
