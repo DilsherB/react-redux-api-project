@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useNavigate } from "react-router-dom";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import {
   Grid,
   Card,
@@ -14,15 +12,10 @@ import {
   Paper,
   styled,
 } from "@mui/material";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import TextField from "@mui/material/TextField";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import Stack from "@mui/material/Stack";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import Autocomplete from "@mui/material/Autocomplete";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import IconButton from "@mui/material/IconButton";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import InfoIcon from "@mui/icons-material/Info";
 import WorldMap from "../assets/worldmap.jpeg";
 import Europe from "../assets/europe.jpeg";
