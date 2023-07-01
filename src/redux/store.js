@@ -1,14 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import itemsReducer from "./itemsReducer";
 
-export default configureStore({
-  reducers: {
-    items: (state = [], action) => {
-      switch (action.type) {
-        case "fetchItems":
-          return action.payload;
-        default:
-          return state;
-      }
-    },
+const store = configureStore({
+  reducer: {
+    items: itemsReducer,
   },
 });
+
+export default store;
