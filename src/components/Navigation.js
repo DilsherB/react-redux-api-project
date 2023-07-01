@@ -1,12 +1,7 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FaGear } from "react-icons/fa6";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { PiMicrophoneFill } from "react-icons/pi";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { IoChevronBack } from "react-icons/io5";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { NavLink } from "react-router-dom";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Box } from "@mui/material";
 
 const Navigation = () => (
