@@ -103,7 +103,7 @@ After you're finished please remove all the comments and instructions!
 
 # 🚀 [Live Demo] <a name="live-demo"></a>
 
-Live Demo [here](https://capstone-h4wy.onrender.com/)
+Live Demo [here](https://react-reduxcapstone.netlify.app/)
 
 # 🚀 [Live Presentation] <a name="presentation"></a>
 
