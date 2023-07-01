@@ -5,7 +5,7 @@ import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import myCountries from "../components/Countries";
+import myCountries from "./CountriesTest";
 import Navigation from "../components/Navigation";
 
 const reducer = (
