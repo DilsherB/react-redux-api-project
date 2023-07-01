@@ -61,6 +61,7 @@ const Homepage = () => {
 
   const filteredRegions = regions.filter((region) => region.title.includes(selectedRegion));
 
+  // eslint-disable-next-line no-unused-vars
   const PinkPaper = styled(Paper)(({ theme }) => ({
     backgroundColor: "rgb(236, 76, 138)",
   }));
